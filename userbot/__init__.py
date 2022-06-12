@@ -119,7 +119,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "True"))
 ALIVE_NAME = os.environ.get("@bhhshwXD", None)
 
 # Time & Date - Country and Time Zone
-COUNTRY = str(os.environ.get("COUNTRY", "Indonesian"))
+COUNTRY = str(os.environ.get("COUNTRY", "")
 TZ_NUMBER = int(os.environ.get("TZ_NUMBER", 1))
 
 # Clean Welcome
