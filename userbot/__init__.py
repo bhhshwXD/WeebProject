@@ -57,26 +57,26 @@ if CONFIG_CHECK:
     quit(1)
 
 # Telegram App KEY and HASH
-API_KEY = os.environ.get("API_KEY", None)
-API_HASH = os.environ.get("API_HASH", None)
+API_KEY = os.environ.get("7084752", None)
+API_HASH = os.environ.get("849ded64cd247b4f282ddb4f5286801c", None)
 
 
 # Userbot Session String
-STRING_SESSION = os.environ.get("STRING_SESSION", None)
+STRING_SESSION = os.environ.get("1BVtsOJoBu4NWY072H39Dim9bSr6W1pn32vYqw43lS2BxtVDcJ75yYAXMAtJp26jqISpKvK1aV0xVl8AVgdfh_6p1PESPsfU0r_nQNlDA-SGlFmzUSia_sfqIxZFzeJgTT2perKK1EHZncybU6sa5SiaafYuVu1jaiccpPxP124bwEgBuO1_grBxwjQdseJBWd5rZZds3LfcDpU4bUJ5FCYFq8F9lT02pzfLWiJRlxeX_TaOmYNaroxKu7e8YjkfhjIfyr_5p8z_JtHutFjyxJrz_GkNZ-W66yqDOgKiu9KSQ-uvdxy_OgKDEuCthu3E0t00nwzjS_RLYxz5bErueoLc1aWAvaWQ=", None)
 
 # Logging channel/group ID configuration.
-BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", None))
+BOTLOG_CHATID = int(os.environ.get("-1001734419715", None))
 
 # Userbot logging feature switch.
-BOTLOG = sb(os.environ.get("BOTLOG", "False"))
-LOGSPAMMER = sb(os.environ.get("LOGSPAMMER", "False"))
+BOTLOG = sb(os.environ.get("BOTLOG", "True"))
+LOGSPAMMER = sb(os.environ.get("LOGSPAMMER", "True"))
 
 # Bleep Blop, this is a bot ;)
-PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
+PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "True"))
 
 # Heroku Credentials for updater.
-HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
-HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
+HEROKU_APP_NAME = os.environ.get("bhhshwxd", None)
+HEROKU_API_KEY = os.environ.get("5f3595e1-1142-443b-ba27-46e0e6f4c791", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
@@ -95,9 +95,9 @@ DB_URI = os.environ.get("DATABASE_URL", None)
 OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
 
 # Default .alive name anf logo
-ALIVE_NAME = os.environ.get("ALIVE_NAME") or None
+ALIVE_NAME = os.environ.get("bhhshwXD") or None
 ALIVE_LOGO = (
-    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/9e888cb1e485adf3a179e.mp4"
+    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/9cd2418bd7cc9ffaf75a3.jpg"
 )
 
 # remove.bg API key
@@ -112,14 +112,14 @@ OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
 WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", None)
 
 # Anti Spambot Config
-ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
-ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
+ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "True"))
+ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "True"))
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
+ALIVE_NAME = os.environ.get("@bhhshwXD", None)
 
 # Time & Date - Country and Time Zone
-COUNTRY = str(os.environ.get("COUNTRY", ""))
+COUNTRY = str(os.environ.get("COUNTRY", "Indonesian"))
 TZ_NUMBER = int(os.environ.get("TZ_NUMBER", 1))
 
 # Clean Welcome
